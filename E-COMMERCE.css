@@ -1,0 +1,515 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+section {
+    padding: 15% 4%;
+}
+
+.main-home {
+    padding-top: 100px;
+    background-image: url(https://img.freepik.com/free-photo/3d-gym-equipment_23-2151114137.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10%;
+    background: rgb(187, 169, 169);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    align-items: center;
+}
+
+.nav-left {
+    margin-right: 20px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    gap: 50px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    transition: transform 0.2s;
+}
+
+.nav a:hover {
+    transform: scale(0.9);
+}
+
+.nav-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: black;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.btn1 {
+    display: flex;
+    background-color: aqua;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    border-radius: 50px;
+    width: 90px;
+    height: 40px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    transition: transform 0.2s;
+}
+
+.btn1:hover {
+    transform: scale(0.9);
+}
+
+.btn1 a {
+    color: white;
+    text-decoration: none;
+}
+
+.fc, .fc2 {
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 50px;
+    color: rgb(255, 181, 181);
+}
+
+.fc2 {
+    color: rgb(145, 83, 83);
+}
+
+.mbox {
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+    margin: 20px 0;
+    font-weight: bolder;
+}
+
+.box {
+    margin-top: 50px;
+    color: rgb(247, 247, 247);
+    text-align: left;
+    max-width: 300px;
+}
+
+
+.box h1 {
+    font-weight: bolder;
+    font-size: 40px;
+    color: rgb(221, 240, 49);
+    text-align: center;
+}
+
+.para {
+    display: flex;
+    justify-content: center;
+    margin: 60px 0;
+    color: rgb(188, 235, 61);
+    font-size: 15px;
+}
+
+.para2 {
+    text-align: center;
+}
+
+.para2 span {
+    color: rgb(167, 237, 250);
+}
+
+.abs1 {
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 50px;
+    margin-top: -190px;
+    color: rgb(255, 233, 233);
+}
+
+.About-us {
+    background-image: url(https://img.freepik.com/free-photo/3d-gym-equipment_23-2151114193.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.intro {
+    font-size: 20px;
+    font-weight: 100px;
+    text-align: center;
+    align-items: center;
+}
+
+.intro h2 {
+    color: #fffab0;
+    margin-top: 50px;
+
+}
+
+
+.im {
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    margin-top: 50px;
+}
+
+.im1 {
+    margin-top: 50px;
+}
+
+.trending {
+    background-color: wheat;
+   
+}
+
+.products {
+    color: black;
+    font-size: 40px;
+    font-weight:bolder;
+    text-align:justify;
+    align-items: center;
+    margin-top: -5%;
+}
+
+.products span {
+    color: red;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 30px; 
+    margin: 4% auto;
+    background: transparent;
+}
+
+.search-n {
+    flex-grow: 1; 
+    color: black;
+    font-family: 'lexend', sans-serif;
+    background: transparent;
+    margin-left: 5px;
+    border: none; 
+    outline: none; 
+}
+
+.productsshop {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(260px, auto));
+    gap: 2rem;
+    color: rgb(5, 5, 5);
+    font-family: monospace;
+    margin-top: 5%;
+}
+
+
+.cloths {
+    font-weight: bolder;
+    font-size: larger;
+    text-align: center;
+    margin-top: 50px;
+    border-bottom-style: solid;
+}
+
+.productsshop h5 {
+    font-size: 150%;
+}
+
+.price {
+    font-size: 150%;
+}
+
+.row {
+    position: relative;
+    transition: all .20s;
+}
+
+.row img {
+    width: 300px;
+    height: 300px;
+    transition: all .20s;
+}
+
+.row img:hover  {
+    transform: scale(0.9);
+}
+
+.review {
+    align-items: center;
+    text-align: center;
+    background-image: url(https://media3.giphy.com/media/9E40ePI5P22Wngf4mA/giphy.gif?cid=6c09b952g42sq82n2mle4ss0928k7ynzcu0xb9yph1bsoera&ep=v1_gifs_search&rid=giphy.gif&ct=g);
+}
+
+.t-text {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 10%;
+}
+
+.review img{
+    width: 300px;
+    height: auto;
+    border-radius: 100%;
+    margin: 10px 0;
+}
+
+.name {
+    margin-top: 20px;
+}
+
+.posi {
+    margin-top: 10px;
+}
+
+.rat {
+    margin-top: -15%;
+     border-bottom-style: solid;
+}
+
+.contact {
+    padding: 50px 10%;
+    background: grey;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0 / 100%);
+    text-align: center;
+    align-items: center;
+}
+
+.icons i {
+    margin-top: 10px;
+    width: 50px;
+}
+
+@media (max-width: 768px) {
+    .nav {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px; 
+        left: 0;
+        background: grey;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .nav a {
+        padding: 10px;
+    }
+
+    .nav-toggle {
+        display: block;
+    }
+
+    .nav.show {
+        display: flex;
+    }
+
+    .btn1 {
+        font-size: 0.8vw;
+    }
+
+    .fc, .fc2 {
+        font-size: 30px;
+    }
+
+    .mbox {
+        flex-direction: column;
+        gap: 20px;
+        margin: 20px 0;
+    }
+
+    .box {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .box h1 {
+        font-size: 24px;
+    }
+
+    .para {
+        margin: 30px 0;
+        font-size: 12px;
+    }
+
+    .para2 {
+        font-size: 14px;
+    }
+
+    .abs1 {
+        font-size: 30px;
+        margin-left: 35%;
+        margin-top: 5px;
+    }
+
+    .About-us {
+        padding: 20px 5%;
+        margin-top: -14%;
+    }
+
+    .intro {
+        font-size: 16px;
+    }
+
+    .im {
+        width: 100px;
+    }
+
+    .im1 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .products {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .search {
+        width: 100%; 
+        margin-left: 0; 
+    }
+
+    .productsshop {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .row img {
+        width: 100%;
+        height: auto;
+    }
+
+    .review img {
+        width: 200px;
+        height: auto;
+    }
+
+    .contact {
+        padding: 20px 5%;
+    }
+
+    .icons i {
+        width: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        padding: 10px 5%;
+    }
+
+    .nav-links {
+        gap: 15px;
+    }
+
+    .nav a {
+        padding: 8px;
+        font-size: 14px; 
+    }
+
+    .nav-toggle {
+        font-size: 20px;
+    }
+
+
+    .btn1 {
+      font-size: 0.6vw; 
+    }
+
+    .fc, .fc2 {
+        font-size: 26px;
+    }
+
+    .mbox {
+        gap: 15px;
+        margin: 15px 0;
+    }
+
+    .box h1 {
+        font-size: 20px;
+    }
+
+    .para {
+        margin: 20px 0;
+        font-size: 10px;
+    }
+
+    .para2 {
+        font-size: 12px;
+    }
+
+    .abs1 {
+        font-size: 26px;
+        margin-left: 30%;
+    }
+
+    .About-us {
+        padding: 15px 4%;
+        margin-top: -12%;
+    }
+
+    .intro {
+        font-size: 14px;
+    }
+
+    .im {
+        width: 80px;
+    }
+
+    .products {
+        font-size: 20px;
+    }
+
+    .search {
+        padding: 3px;
+    }
+
+    .productsshop {
+        gap: 0.5rem;
+    }
+
+    .review img {
+        width: 150px;
+    }
+
+    .contact {
+        padding: 15px 4%;
+    }
+
+    .icons i {
+        width: 25px;
+    }
+}

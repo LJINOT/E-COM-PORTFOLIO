@@ -1,0 +1,618 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    line-height: normal;
+}
+
+section {
+    padding: 15% 4%;
+}
+
+.section1 {
+    background-color: rgb(34, 179, 223);
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 5%;
+    background: salmon;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    align-items: center;
+}
+
+.NN {
+    margin-left: 4%;
+}
+
+.NN a {
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.navBar {
+    display: flex;
+    margin-right: 2%;
+}
+
+.nav-links {
+    display: flex;
+    gap: 50px;
+}
+
+.navBar a {
+    text-decoration: none;
+    padding: 25px;
+    font-size: 20px;
+    color: black;
+    transition: transform 0.2s;
+}
+
+.navBar a:hover {
+    transform: scale(0.9);
+}
+
+.nav-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: black;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+.intro {
+    font-size: 200%;
+    margin-top: 3%;
+    margin-left: 8%;
+}
+
+.intro h1 {
+    color: aliceblue;
+}
+
+.IMG1 {
+    display: flex;
+    background-image: url(imgprof/LJ.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 500px;
+    margin-left: 68%;
+    margin-top: -20%;
+    border-radius: 30%;
+    transition: transform 0.2s;
+}
+
+.IMG1:hover {
+    transform: scale(0.9);
+}
+
+.welcome {
+    font-size: small;
+    font-weight: bolder;
+    margin-top: -10%;
+    margin-left: 8%;
+}
+
+.btn1, .btn2 {
+    display: flex;
+    background-color: lightcyan;
+    color: black;
+    font-size: small;
+    font-weight: bolder;
+    border-radius: 50px;
+    width: 90px;
+    height: 40px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s;
+    text-decoration: none;
+}
+
+.btn1 {
+    margin-top: 1%;
+    margin-left: 8%;
+}
+
+.btn2 {
+    margin-top: -2.3%;
+    margin-left: 15%;
+}
+
+.btn1:hover, .btn2:hover {
+    transform: scale(0.9);
+}
+
+.section2 {
+    background-color: bisque;
+}
+
+.abt-t {
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    margin-top: 16%;
+    border-bottom-style: solid;
+    margin-left: -9%;
+}
+
+.Mbox {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.abt-p {
+    color: black;
+    text-align: left;
+    max-width: 600px;
+    font-size: larger;
+    font-weight: bolder;
+    margin-top: 15%;
+    margin-left: 2%;
+}
+
+.abt-in {
+    font-size: small;
+    font-weight: bolder;
+    margin-top: -50%;
+    margin-left: 8%;
+}
+
+.section2 img {
+    margin-left: 8%;
+    margin-top: -9%;
+    border-radius: 30%;
+    transition: transform 0.2s;
+}
+
+.section2 img:hover {
+    transform: scale(0.9);
+}
+
+.icons {
+    margin-top: 2%;
+    margin-left: 28%;
+}
+
+.activity {
+    background-color: lightblue;
+}
+
+.act {
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    margin-top: -14%;
+    border-bottom-style: solid;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;  
+    max-width: 600px;
+    padding: 50px;
+    box-shadow: 0 0 10px rgba(8, 1, 1, 0.1);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.activity-list {
+    list-style: none;
+    padding: 50px;
+    border-bottom-style: solid;
+}
+
+.li {
+    margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.activity-list a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    padding: 20px 30px;
+    margin: 5px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.activity-list a:hover {
+    background-color: #333;
+    color: white;
+}
+
+.act-i {
+    margin-top: 4%;
+    margin-left: 1%;
+    text-align: center;
+}
+
+
+.schedule {
+    background-color: lightskyblue;
+    color: yellow;
+}
+
+.sched-t {
+    text-align: center;
+    margin-top: -15%;
+}
+
+.sche {
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+}
+
+.sche h1 {
+    margin-bottom: 20px;
+}
+
+.move {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    max-width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+th {
+    background-color: lightcyan;
+    color: black;
+    font-weight: bold;
+}
+
+td {
+    background-color: blanchedalmond;
+    color: black;
+    font-weight: bold;
+}
+
+.s-t {
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    border-bottom-style: solid;
+}
+
+.s-s {
+    text-align: left;
+    max-width: 100%;
+    margin: 20px;
+}
+
+.s-demo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.BOX {
+    margin-top: 5px;
+    text-align: left;
+    width: 100%;
+    max-width: 450px;
+    height: 50px;
+    padding: 20px;
+    border-bottom-style: solid;
+    color: blue;
+}
+
+.s-img {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contact {
+    background-color: pink;
+    text-align: center;
+    padding: 50px;
+}
+
+
+
+@media (max-width: 768px) {
+    .navBar {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px; /* Adjust based on header height */
+        left: 0;
+        background: grey;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+.nav-links {
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+}
+
+.navBar a {
+    padding: 10px;
+}
+
+.nav-toggle {
+    display: block;
+}
+
+.navBar.show {
+    display: flex;
+}
+
+.intro {
+    font-size: 150%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.IMG1 {
+    width: 200px;
+    height: 300px;
+    margin-left: 50%;
+    margin-top: -10%;
+}
+
+.welcome {
+    font-size: small;
+    margin-top: -10%;
+    margin-left: 5%;
+}
+
+.btn1, .btn2 {
+    width: 80px;
+    height: 35px;
+}
+
+.btn1 {
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+.btn2 {
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+.abt-in {
+    margin-top: -20%;
+    margin-left: 5%;
+    text-align: center;
+}
+
+.abt-p {
+    margin-top: 10%;
+    margin-left: 0;
+    font-size: medium;
+}
+
+.abt-t {
+    margin-top: 5%;
+    margin-left: 0;
+}
+
+.section2 img {
+    width: 250px;
+    height: auto;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.icons {
+    margin-top: 5%;
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.act {
+    margin-top: -10%;
+}
+
+.container {
+    padding: 30px;
+    margin: 30px auto;
+}
+
+.activity-list a {
+    padding: 15px 25px;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.act-i {
+    margin-top: 2%;
+}
+
+.sched-t {
+    margin-top: 10%;
+}
+
+.sche h1 {
+    margin-bottom: 10px;
+}
+
+.s-s {
+    max-width: 70%;
+}
+
+.s-img img {
+    width: 100%;
+    height: auto;
+}
+
+}
+
+@media (max-width: 480px) {
+
+    .navBar {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background: grey;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 15px; 
+        padding: 8px; 
+    }
+
+    .navBar a {
+        padding: 8px; 
+    }
+
+    .nav-toggle {
+        display: block;
+    }
+
+    .navBar.show {
+        display: flex;
+    }
+
+    .intro {
+        font-size: 120%;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+
+    .IMG1 {
+        width: 150px;
+        height: 200px;
+        margin-left: 25%;
+        margin-top: 0;
+    }
+
+    .welcome {
+        font-size: small;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+
+    .btn1, .btn2 {
+        width: 70px;
+        height: 30px;
+    }
+
+    .btn1, .btn2 {
+        margin-top: 5%;
+        margin-left: 0;
+        margin-right: 5%;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .abt-in {
+        margin-top: 0;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .abt-p {
+        margin-top: 5%;
+        margin-left: 0;
+        font-size: small;
+    }
+
+    .abt-t {
+        margin-top: 5%;
+        margin-left: 0;
+        font-size: medium;
+    }
+
+    .section2 img {
+        width: 200px;
+        height: auto;
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .icons {
+        margin-top: 5%;
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .act {
+        margin-top: -5%;
+        font-size: medium;
+    }
+
+    .container {
+        padding: 20px;
+        margin: 20px auto;
+    }
+
+    .activity-list a {
+        padding: 10px 20px;
+        font-size: 14px;
+        margin: 5px;
+    }
+
+    .act-i {
+        margin-top: 1%;
+    }
+
+    .sched-t {
+        margin-top: 15%;
+    }
+
+    .sche h1 {
+        margin-bottom: 5px;
+    }
+
+    .move {
+        overflow-x: auto;
+        margin-top: 10px;
+    }
+
+    .s-s {
+        max-width: 90%;
+    }
+    
+}
+
